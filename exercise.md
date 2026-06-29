@@ -25,6 +25,13 @@
 
 ```gnuplot {cmd=true output="html"}
 set terminal svg
+set title "関数のプロット"
+set xlabel "x"
+set ylabel "y"
+set xlange [0:7]
+set ylange [-20:15]
+plot 2*x**2*sqrt(x), x/log(x)
+
 
 ```
 
